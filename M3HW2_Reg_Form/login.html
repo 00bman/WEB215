@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>This is the Logon Page</title>
+  <link href="styles/bootstrap.min.css" rel="stylesheet" />
+  <link href="styles/jumbotron.css" rel="stylesheet" />
+  <link href="styles/layback.css" rel="stylesheet" />
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+			  <div class="jumbotron text-center">
+				    <img src="login3-2.png" alt="Key Inside Lock">
+        </div>
+		</div>
+  </div>
+    <div class="row">
+      <div class= "col-xs-12">
+		  <form class="form-horizontal" action="/action_page.php" method="post">
+			  <div class="form-group">
+				  <label class="control-label col-sm-4" for="email">Email:</label>
+				  <div class="col-xs-12 col-sm-6 col-md-4">
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-sm-4" for="pwd">Password:</label>
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-offset-4 col-sm-10">
+				<div class="checkbox">
+					<label><input type="checkbox" name="remember"> Remember me</label>
+				</div>
+			</div>
+	</div>
+	<div class="form=group">
+		<div class="col-sm-offset-4 col-sm-10">
+			<button type="submit" class="btn btn-primary" data-trigger="hover" 
+			data-placement="right" data-content="Is everything correct!">Submit</button>
+			
+		</div>
+	</div>
+		</form>
+  </div>
+</div>
+</div>
+	<script>$(function () {$('[data-toggle="popover"]').popover() }) </script>
+	<script src="Scripts/jquery-3.2.1.min"></script>
+	<script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
