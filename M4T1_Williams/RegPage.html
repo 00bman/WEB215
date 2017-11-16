@@ -6,7 +6,8 @@
   <link href="styles/bootstrap.min.css" rel="stylesheet" />
   <link href="styles/jumbotron.css" rel="stylesheet" />
   <link href="styles/layback.css" rel="stylesheet" />
-
+  <link href="styles/social.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
@@ -18,6 +19,11 @@
       <br>
       <br>
 	      <div class="form-group">
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+            <div class="alert alert-success" role="alert">Ok on to the Next..</div>
+            <div class="alert alert-warning" role="alert">Danger Will Robinison..</div>
+            </div>
             <div class="input-group input-group-sm">
 
                 <span class="input-group-addon">
@@ -65,25 +71,39 @@
 
 
         </div>
+        <div class="row">
+          <form class="form-inline" align="center">
+            <center>
+            <div class="form-group">
+              <input name="group20" class="btn btn-default" type="radio" id="radio120" checked="checked">
+                <label for="radio120">Free Account</label>
+            </div>
+            <div class="form-group">
+              <input name="group20" class="btn btn-warning" type="radio" id="radio121">
+                <label for="radio121">Silver Account</label>
+            </div>
+            <div class="form-group">
+              <input name="group20" class="btn btn-success" type="radio" id="radio122">
+                <label for="radio122">Gold Account</label>
+            </div>
+                <br>
+                <br>
+                <div class="row">
+                  <a href="#" class="btn btn-info" role="button">Reset</a>
+                  <input type="submit" class="btn btn-primary" value="Submit">
+                </div>
+            </center>
+          </form>
+        </div>
+          <br>
+            <center><a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a></center>
+        </div>
       </div>
     </div>
     <div class="container">
-      <div class="row">
-        <form class="form-inline" align="center">
-          <div class="form-group">
-            <input name="group20" type="radio" id="radio120" checked="checked">
-              <label for="radio120">Free Account</label>
-          </div>
-          <div class="form-group">
-            <input name="group20" type="radio" id="radio121">
-              <label for="radio121">Silver Account</label>
-          </div>
-          <div class="form-group">
-            <input name="group20" type="radio" id="radio122">
-              <label for="radio122">Gold Account</label>
-          </div>
-        </form>
-      </div>
+
+
       </div>
       <br>
       <br>
@@ -92,15 +112,10 @@
             0%
         </div>
       </div>
-
-
-
-
-
-	<script>$(function () {$('[data-toggle="popover"]').popover() }) </script>
-	<script src="Scripts/jquery-3.2.1.min"></script>
+    </div>
+	<script src="Scripts/jquery-3.2.1.min.js"></script>
 	<script src="Scripts/bootstrap.min.js"></script>
-  <script src="Scripts/mover.js"></script>
+  <script src="Scripts/main.js"></script>
 
 </body>
 </html>
